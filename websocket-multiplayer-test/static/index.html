@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Some game shit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, html {
+            overflow: hidden;
+            margin: 0;
+            user-select: none;
+            background: #123351;
+        }
+        #container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+        .player {
+            font-family: "Open Sans", sans-serif;
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            font-size: 13px;
+            line-height: 70px;
+            text-align: center;
+            color: black;
+            background: deepskyblue;
+            overflow: hidden;
+            mix-blend-mode: color-dodge;
+            /*transition: 0.1s ease all;*/
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script src="/static/client.js"></script>
+</body>
+</html>
