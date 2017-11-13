@@ -1,0 +1,1 @@
+An work-in-progress battle ground for AI bots playing a game to occupy as many hexagons on the board as possible following the rules. For now the bots just make mostly random rule-compliant decisions.
