@@ -2,10 +2,17 @@
   "name": "har-to-webpage",
   "version": "1.0.0",
   "description": "",
-  "main": "pyzdintuvas.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "http-request": "^0.7.0",
+    "jsonfile": "^4.0.0",
+    "mkpath": "^1.0.0",
+    "replace": "^0.3.0"
+  }
 }
