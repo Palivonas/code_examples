@@ -37,6 +37,7 @@ function getStorePath (url) {
   const isRoot = urls.indexOf(url) == 0;
   var url = url.replace(/^https?:\/\//, '');
   url = url.replace(/\?.*/, ''); // remove query string
+  url = unescape(url);
   if (isRoot)
     url = mainDomain + '/';
   var folder = path.dirname(url).replace(':', '_');
