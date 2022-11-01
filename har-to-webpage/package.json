@@ -13,6 +13,6 @@
     "http-request": "^0.7.0",
     "jsonfile": "^4.0.0",
     "mkpath": "^1.0.0",
-    "replace": "^0.3.0"
+    "replace": "^1.2.2"
   }
 }
